@@ -11,13 +11,13 @@
        </ul>
         <form>
            First name:<br>
-            <input type="text" name="firstname"><br>
+            <input type="text" name="firstname"required><br>
             Last name:<br>
-            <input type="text" name="lastname"><br>
+            <input type="text" name="lastname"required><br>
             Email:<br>
-            <input type="text" name="email"><br>
+            <input type="text" name="email"required><br>
             Phone number:<br>
-            <input type="numbers" name="phone number"><br>
+            <input type="numbers" name="phone number"required><br>
             <tr>
                         <td><button type="submit" value="submit" id="submit" onclick="myFunction()">Submit</button></td>
                         <td><button type="reset" value="reset">Reset</button></td>
@@ -26,7 +26,7 @@
                             function myFunction() 
         {
         document.getElementById("submit");
-        alert("this message has been recieved"); 
+        alert("Your feedback has been recieved"); 
         }
             </script>  
          </form> 
